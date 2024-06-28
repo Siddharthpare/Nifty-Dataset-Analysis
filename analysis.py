@@ -1,5 +1,6 @@
 import pandas as pd
 
+#Change the filename which you want to analyse
 nifty = pd.read_csv('NIFTY FMCG.csv')
 print(nifty)
 nifty['Date'] = pd.to_datetime(nifty['Date'])
